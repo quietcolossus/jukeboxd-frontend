@@ -1,16 +1,18 @@
 import { Component, OnInit } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { JukeboxdAlbum } from './jukeboxd_album';
-import { JukeboxdAlbumService } from './jukeboxd_album.service';
+import { JukeboxdAlbum } from './models/jukeboxd_album.model';
+import { JukeboxdAlbumService } from './services/jukeboxd_album.service';
 import { CommonModule } from '@angular/common';
 import { response } from 'express';
 import { HttpClientModule, HttpErrorResponse } from '@angular/common/http';
 import { NgFor } from '@angular/common';
+import { AppHeaderComponent } from './components/app-header/app-header.component';
+
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, CommonModule],
+  imports: [RouterOutlet, CommonModule, AppHeaderComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
