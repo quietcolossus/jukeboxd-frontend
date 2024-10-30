@@ -1,0 +1,13 @@
+.main-content {
+    max-width: 66%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  /* Adjust for smaller screens */
+@media (max-width: 768px) {
+    .main-content {
+      max-width: 90%;  /* Make it wider on smaller screens */
+      padding: 15px;   /* Reduce padding */
+    }
+  }

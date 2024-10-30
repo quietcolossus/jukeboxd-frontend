@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
-import { JukeboxdAlbum } from './jukeboxd_album';
+import { JukeboxdAlbum } from '../models/jukeboxd_album.model';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { environment } from '../environments/environment';
+import { environment } from '../../environments/environment';
 
 @Injectable({
     providedIn: 'root'

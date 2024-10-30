@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Matimo', sans-serif;
+    width: 100%;
+    background-color: #1a1a1a; /* Dark background color for main body */
+    color: #ffffff;            /* Optional: set a default text color for readability */
+  }
+
+  @font-face {
+    font-family: 'Matimo';
+    src: url('/assets/fonts/Matimo-Black.otf') format('opentype');
+  }
