@@ -1,10 +1,16 @@
 .app-header {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+  }
+
+  .header-container {
+    max-width: 66%;              /* Constrain to 66% width, similar to .main-content */
+    margin: 0 auto;              /* Center the container */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
-    background-color: #333;
-    color: white;
   }
   
   .logo {
@@ -45,4 +51,6 @@
     border-radius: 50%;
     object-fit: cover;
   }
+  
+
   
