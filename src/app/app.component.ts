@@ -7,12 +7,14 @@ import { response } from 'express';
 import { HttpClientModule, HttpErrorResponse } from '@angular/common/http';
 import { NgFor } from '@angular/common';
 import { AppHeaderComponent } from './components/app-header/app-header.component';
+import { WelcomeBannerComponent } from './components/welcome-banner/welcome-banner.component';
+import { ActivityFeedComponent } from './components/activity-feed/activity-feed.component';
 
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, CommonModule, AppHeaderComponent],
+  imports: [RouterOutlet, CommonModule, AppHeaderComponent, WelcomeBannerComponent, ActivityFeedComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

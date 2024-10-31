@@ -1,5 +1,12 @@
 <div class="album-card">
-    <img [src]="album.imageUrl" alt="{{ album.title }}" />
-    <h3>{{ album.title }}</h3>
-    <!-- <app-rating [rating]="album.rating"></app-rating> -->
+  <div class="title-bubble">{{ album.title }} ({{ album.releaseDate }})</div>
+
+  <img [src]="'assets/images/covers/' + album.coverImageUrl" alt="{{ album.title }}" />
+  
+  <div class="bottom-menu">
+    <span class="icon">👁️</span> <!-- Eye icon for viewing -->
+    <span class="icon">❤️</span> <!-- Heart icon for like/favorite -->
+    <span class="icon">⋯</span> <!-- Ellipsis icon for more options -->
   </div>
+  <!-- <app-rating [rating]="album.rating"></app-rating> -->
+</div>

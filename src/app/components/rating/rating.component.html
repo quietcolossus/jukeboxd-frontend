@@ -1,0 +1,6 @@
+<div class="stars">
+    <ng-container *ngFor="let star of [1, 2, 3, 4, 5]; let i = index">
+      <i [class.filled]="i < rating" class="star"></i>
+    </ng-container>
+  </div>
+  
