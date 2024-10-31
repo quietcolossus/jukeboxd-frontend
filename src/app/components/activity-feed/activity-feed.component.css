@@ -1,0 +1,19 @@
+.activity-feed {
+    align-items: center; /* Center the content if needed */
+    overflow-x: visible; /* Prevent horizontal scrolling */
+  }
+  
+  .album-list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Six equal columns */
+    gap: 10px;
+    overflow: visible;
+    max-width: 100%; /* Prevents horizontal overflow */
+    padding-right: 5px; /* Adjust as needed for desired padding */
+  }
+
+  @media (max-width: 1200px) {
+    .album-list {
+      grid-template-columns: repeat(3, 1fr); /* Three items per row on smaller screens */
+    }
+  }

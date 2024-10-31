@@ -17,5 +17,10 @@ body, html {
 
   @font-face {
     font-family: 'Matimo';
-    src: url('/assets/fonts/Matimo-Black.otf') format('opentype');
+    src: url('/assets/fonts/Matimo-SemiBold.otf') format('opentype');
+  }
+
+  @font-face {
+    font-family: 'Matimo-Regular';
+    src: url('/assets/fonts/Matimo-Regular.otf') format('opentype');
   }

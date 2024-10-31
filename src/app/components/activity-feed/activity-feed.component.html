@@ -1,0 +1,11 @@
+<section class="activity-feed">
+    <small>ACTIVITY FROM FRIENDS</small>
+    <hr>
+    <div class="album-list">
+      <app-album-card
+        *ngFor="let album of albums$ | async"
+        [album]="album"
+      ></app-album-card>
+    </div>
+  </section>
+  
