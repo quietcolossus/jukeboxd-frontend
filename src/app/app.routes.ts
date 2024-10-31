@@ -1,8 +1,8 @@
 import { Routes } from '@angular/router';
-import { AlbumsPageComponent } from './albums/albums.component';
-import { ListsPageComponent } from './lists/lists.component';
-import { MembersPageComponent } from './members/members.component';
-import { JournalPageComponent } from './journal/journal.component';
+import { AlbumsPageComponent } from './components/albums-page/albums-page.component';
+import { ListsPageComponent } from './components/lists-page/lists-page.component';
+import { MembersPageComponent } from './components/members-page/members-page.component';
+import { JournalPageComponent } from './components/journal-page/journal-page.component';
 
 export const appRoutes: Routes = [
   { path: 'albums', component: AlbumsPageComponent },
