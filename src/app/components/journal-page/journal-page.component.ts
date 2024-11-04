@@ -1,11 +1,12 @@
+// src/app/journal/journal-page.component.ts
 import { Component } from '@angular/core';
+import { AppHeaderComponent } from '../app-header/app-header.component';
 
 @Component({
   selector: 'app-journal-page',
+  standalone: true,
+  imports: [AppHeaderComponent],
   templateUrl: './journal-page.component.html',
-  styleUrls: ['./journal-page.component.css'],
-  standalone: true
+  styleUrls: ['./journal-page.component.css']
 })
-export class JournalPageComponent {
-  userName = 'Bacchus'; // Example data, replace with actual user data
-}
+export class JournalPageComponent {}
