@@ -15,6 +15,10 @@ body, html {
     color: #ffffff;            /* Optional: set a default text color for readability */
   }
 
+  a {
+    color:#ffffff;
+  }
+
   @font-face {
     font-family: 'Matimo';
     src: url('/assets/fonts/Matimo-SemiBold.otf') format('opentype');
